@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-visualization"
+version = "0.1.0"
+description = ""
+authors = ["joseph-zabaleta <joseph.l.zabaleta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^2.1.4"
+pandas = "^1.0.4"
+matplotlib = "^3.2.1"
+sklearn = "^0.0"
+seaborn = "^0.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
